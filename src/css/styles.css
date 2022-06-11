@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Raleway:wght@500&display=swap");
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#wrapper #quote-box {
+  min-height: 50vh;
+  width: 50%;
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #fff;
+  border-radius: 0.5rem 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#wrapper #quote-box .quote-text {
+  width: 90%;
+  padding: 0 2rem;
+  font-size: 1.7rem;
+  text-align: center;
+}
+#wrapper #quote-box .quote-text #text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+#wrapper #quote-box .quote-author {
+  width: 80%;
+  text-align: right;
+  padding: 0 2rem;
+  font-size: 1.2rem;
+}
+#wrapper #quote-box .quote-author #author {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+#wrapper #quote-box .button #new-quote {
+  cursor: pointer;
+  padding: 0.8rem;
+  outline: none;
+  border: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 0.2rem 0.2rem;
+}
+#wrapper #quote-box .link i {
+  font-size: 1.7rem;
+}
